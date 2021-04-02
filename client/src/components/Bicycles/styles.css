@@ -1,0 +1,57 @@
+.bicycle__available-data,
+.bicycle__rented-data {
+    width: 800px;
+    border: 1px solid rgb(200,200,200);
+    padding: 16px;
+    margin: 0 auto;
+    background-color:rgb(124, 112, 112);
+    border-radius:10px;
+}
+
+.bicycle__btn-cancel,
+.bicycle__btn-rent,
+.bicycle__btn-delete {
+    float: right;
+    margin: 1px;
+}
+
+.bicycle__btn-cancel,
+.bicycle__btn-delete{
+    background-color: #f44336;;
+    border: none;
+    color: white;
+    width:70px;
+    height:20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.bicycle__btn-rent{
+    background-color: rgb(55,80,199);
+    border: none;
+    color: white;
+    width:70px;
+    height:20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.text{
+    text-align: center;
+    padding:16px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+@media (max-width:868px) {
+    .bicycle__available-data,
+    .bicycle__rented-data{
+        width:300px;
+    }
+}
